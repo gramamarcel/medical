@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/style.css">
+ <title>Dentist booking page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container heading">
+            <h1>Dentist Booking form</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="tabledata">
+
+                <div class="firstcontainer">
+                    <div>
+                        <form action="/Home/Create" method="post" target="_blank">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>Choose a procedure:</h3>
+                                </div>
+                                <div class="col">
+                                    <input list="browsers" class="procedurebox" autocomplete="off" required id="choose1" name="procedure" placeholder="Choose a procedure" />
+                                    <datalist id="procedure">
+                                        <option value="A">
+                                            <option value="B">
+                                                <option value="C">
+                                                    <option value="D">
+                                                        <option value="E">
+                                    </datalist>
+                                    <img src="img/question.png" id="helpbutton" alt="">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>Choose a doctor:</h3>
+                                </div>
+                                <div class="col">
+                                    <input list="browsers" class="procedurebox" autocomplete="off" required id="choose1" name="doctor"  placeholder="Choose a doctor"/>
+                                    <datalist id="browsers">
+                                        <option value="A">
+                                            <option value="B">
+                                                <option value="C">
+                                                    <option value="D">
+                                                        <option value="E">
+                                    </datalist>
+                                    <img src="img/question.png" id="helpbutton" alt="">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>Check doctor availability:</h3>
+                                </div>
+                                <div class="col">
+                                    <input type="text" required id="choose1" class="procedureboxava" autocomplete="off" name="dateandtime" placeholder="01.01.2017  10:00"/>
+                                    <img src="img/Calendar.png" id="calendar" alt="">
+                                    <img src="img/question.png" id="helpbutton" alt="">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="secondcontainer">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Your name, surname</h3>
+                            </div>
+                            <div class="col">
+                                <input type="text" required id="nametext" name="name">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Your Phone Number</h3>
+                            </div>
+                            <div class="col">
+                                <input type="tel" id="nametext" autocomplete="off" required name="phonenumber" id="telNo">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Your Email:</h3>
+                            </div>
+                            <div class="col">
+                                <input type="email" required id="nametext" autocomplete="off"  name="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"> </div>
+                        <div class="col">
+                            <textarea rows="4" cols="30" name="text" autocomplete="off" id="textarea">Some comments here</textarea>
+
+                        </div>
+                    </div>
+                    <input type="submit" float=right id="buttonSubmit" value="Book Now!">
+                </div>
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</body>
+</html>

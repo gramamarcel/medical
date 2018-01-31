@@ -1,0 +1,92 @@
+
+.heading {
+    margin-top: 20px;
+}
+
+.tabledata {
+    border-style: solid;
+    height: 500px;
+    text-align: center;
+}
+
+.procedurebox {
+    width: 200px;
+}
+
+
+.firstcontainer .row{
+    margin-top: 10px;
+}
+
+.secondcontainer .row{
+    margin-top: 10px;
+} 
+#buttonSubmit{
+text-align:center;
+margin-left: 335px;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-6 h3 {
+    float: right;
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.procedurebox {
+    float: left;
+}
+#textarea{
+    float:left;
+    width: 200px;
+}
+#nametext{
+    float:left;
+    width: 200px;
+}
+
+
+.container {
+    width: 800px;
+}
+
+.tabledata {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#choose2 {
+    margin-left: 25px;
+}
+
+#helpbutton {
+    height: 35px;
+    widows: 25px;
+    float: left;
+}
+
+#calendar {
+    height: 35px;
+    width: 24px;
+    padding-bottom: 8px;
+    float: left;
+    margin-left: 5px;
+}
+
+.procedureboxava {
+    float:left;
+    width: 170px;
+}
+.doctoravailability {
+    margin-right: 19px;
+}
+
+.doctoravailability input {
+    width: 170px;
+}
